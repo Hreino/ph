@@ -18,7 +18,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="husbandIncome" class="label">Ingresos Esposo</label>
-                        <input 
+                        <input  step=".01" required
                         type="number" 
                         name="husbandIncome" 
                         class="form-control tourtipguide"
@@ -30,7 +30,7 @@
 
                     <div class="form-group">
                         <label for="wifeIncome" class="label">Ingresos Esposa</label>
-                        <input 
+                        <input step=".01" required
                         type="number" 
                         name="wifeIncome" 
                         class="form-control tourtipguide"
@@ -42,7 +42,7 @@
 
                     <div class="form-group">
                         <label for="businessIncome" class="label">Ingresos por Negocio</label>
-                        <input 
+                        <input step=".01" required
                         type="number" 
                         name="businessIncome" 
                         class="form-control tourtipguide"
@@ -54,7 +54,7 @@
 
                     <div class="form-group">
                         <label for="otherIncome" class="label">Otros Ingresos</label>
-                        <input 
+                        <input step=".01" required
                         type="number" 
                         name="otherIncome" 
                         class="form-control tourtipguide"
@@ -66,7 +66,7 @@
 
                     <div class="form-group">
                         <label for="donations" class="label">Donaciones</label>
-                        <input 
+                        <input step=".01" required
                         type="number" 
                         name="donations" 
                         class="form-control tourtipguide"

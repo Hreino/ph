@@ -18,7 +18,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="lifeInsurance" class="label">Seguro de Vida</label>
-                            <input type="number" name="lifeInsurance" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="lifeInsurance" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto mensual por seguro de vida"
                             data-ttg-content="De lo contrario escriba 0"
@@ -28,7 +28,7 @@
     
                         <div class="form-group">
                             <label for="healthInsurance" class="label">Seguro Médico</label>
-                            <input type="number" name="healthInsurance" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="healthInsurance" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto mensual por seguro médico"   
                             data-ttg-content="De lo contrario escriba 0"                        
@@ -38,7 +38,7 @@
 
                         <div class="form-group">
                             <label for="other" class="label">Otros Seguros</label>
-                            <input type="number" name="other" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="other" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Si tiene otros seguros ingrese la sumatoria aquí"
                             data-ttg-content="De lo contrario escriba 0"

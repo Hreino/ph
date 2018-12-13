@@ -19,7 +19,7 @@
                 <div class="container">
                     <div class="form-group">
                         <label for="savingOne" class="label">Ahorro 1</label>
-                        <input type="number" name="savingOne" placeholder="$ ----.--" step=".01"
+                        <input type="number" name="savingOne" placeholder="$ ----.--" step=".01" required
                         class="form-control tourtipguide"
                         data-ttg-title="Ingresa tu Ahorro Mensual"
                         data-ttg-color="#069999"
@@ -28,7 +28,7 @@
 
                     <div class="form-group">
                         <label for="savingTwo" class="label">Ahorro 2</label>
-                        <input type="number" name="savingTwo" placeholder="$ ----.--" step=".01"
+                        <input type="number" name="savingTwo" placeholder="$ ----.--" step=".01" required
                         class="form-control tourtipguide"
                         data-ttg-title="Si Tienes Otro Ahorro Ingresalo Aquí"
                         data-ttg-content="De lo Contrario Ingresa 0"
@@ -38,7 +38,7 @@
 
                     <div class="form-group">
                         <label for="investmentPlan" class="label">Plan de Inversión</label>
-                        <input type="number" name="investmentPlan" placeholder="$ ----.--" step=".01"
+                        <input type="number" name="investmentPlan" placeholder="$ ----.--" step=".01" required
                         class="form-control tourtipguide"
                         data-ttg-title="Ingresa El Monto Destinado para Tu Plan de Inversión"
                         data-ttg-content="De lo contrario, ingresa cero"

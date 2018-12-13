@@ -18,7 +18,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="college" class="label">Universidad</label>
-                            <input type="number" name="college" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="college" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto mensual por pago de Universidad"
                             data-ttg-content="De lo contrario escriba 0"
@@ -28,7 +28,7 @@
     
                         <div class="form-group">
                             <label for="school" class="label">Colegio</label>
-                            <input type="number" name="school" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="school" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto mensual por pago de colegiaturas"   
                             data-ttg-content="De lo contrario escriba 0"                        
@@ -38,7 +38,7 @@
 
                         <div class="form-group">
                             <label for="enrollment" class="label">Matrículas</label>
-                            <input type="number" name="enrollment" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="enrollment" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto  por pago de matriculas"
                             data-ttg-content="De lo contrario escriba 0"
@@ -48,7 +48,7 @@
 
                         <div class="form-group">
                             <label for="books" class="label">Libros</label>
-                            <input type="number" name="books" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="books" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el monto  por compra de Libros"
                             data-ttg-content="De lo contrario escriba 0"

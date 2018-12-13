@@ -18,7 +18,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="clothes" class="label">Ropa</label>
-                            <input type="number" name="clothes" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="clothes" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el gasto en ropa"
                             data-ttg-color="#069999"
@@ -27,7 +27,7 @@
     
                         <div class="form-group">
                             <label for="shoes" class="label">Zapatos</label>
-                            <input type="number" name="shoes" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="shoes" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el gasto en zapatos"                           
                             data-ttg-color="#069999"
@@ -36,7 +36,7 @@
 
                         <div class="form-group">
                             <label for="kidsClothing" class="label">Ropa de Niños</label>
-                            <input type="number" name="kidsClothing" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="kidsClothing" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el gasto en ropa para niños"
                             data-ttg-content="De lo contrario escriba 0"

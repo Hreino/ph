@@ -20,7 +20,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="superMarket" class="label">Supermercado</label>
-                            <input type="number" name="superMarket" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="superMarket" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingresa el gasto destinado a supermercado"
                             data-ttg-color="#069999"
@@ -29,7 +29,7 @@
 
                         <div class="form-group">
                             <label for="market" class="label">Mercado</label>
-                            <input type="number" name="market" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="market" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingresa el gasto destinado a compras en mercado"
                             data-ttg-color="#069999"
@@ -38,7 +38,7 @@
 
                         <div class="form-group">
                             <label for="other" class="label">Otros gastos</label>
-                            <input type="number" name="other" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="other" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Si tienes otros gastos en alimentación, ingrésalos aquí"
                             data-ttg-content="De lo contrario, ingresa cero"

@@ -19,7 +19,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="travels" class="label">Salidas de paseo</label>
-                            <input type="number" name="travels" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="travels" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto mensual de sus salidas de paseo"
                             data-ttg-color="#069999"
@@ -28,7 +28,7 @@
     
                         <div class="form-group">
                             <label for="restaurants" class="label">Restaurantes</label>
-                            <input type="number" name="restaurants" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="restaurants" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto del consumo mensual de restaurantes"                           
                             data-ttg-color="#069999"
@@ -37,7 +37,7 @@
 
                         <div class="form-group">
                             <label for="vacations" class="label">Vacaciones</label>
-                            <input type="number" name="vacations" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="vacations" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Escriba el Monto Total de las últimas vacaciones dividido entre 12, para que le dé  el 
                             promedio de dinero mesual que debe reservar para ese gasto."
@@ -47,7 +47,7 @@
 
                         <div class="form-group">
                             <label for="other" class="label">Otros Entretenimientos</label>
-                            <input type="number" name="other" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="other" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto de otros entretenimientos"
                             data-ttg-color="#069999"

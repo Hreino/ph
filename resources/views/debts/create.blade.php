@@ -19,7 +19,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="creditCardOne" class="label">Tarjeta de crédito 1</label>
-                            <input type="number" name="creditCardOne" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="creditCardOne" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto de su tarjeta de Crédito 1"
                             data-ttg-color="#069999"
@@ -28,7 +28,7 @@
     
                         <div class="form-group">
                             <label for="creditCardTwo" class="label">Tarjeta de crédito 2</label>
-                            <input type="number" name="creditCardTwo" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="creditCardTwo" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto de su tarjeta de Crédito 2"
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -38,7 +38,7 @@
 
                         <div class="form-group">
                             <label for="creditCardThree" class="label">Tarjeta de crédito 3</label>
-                            <input type="number" name="creditCardThree" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="creditCardThree" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto de su tarjeta de Crédito 3"
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -48,7 +48,7 @@
 
                         <div class="form-group">
                             <label for="creditCardFour" class="label">Tarjeta de crédito 4</label>
-                            <input type="number" name="creditCardFour" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="creditCardFour" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese el Monto de su tarjeta de Crédito 4"
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -58,7 +58,7 @@
     
                         <div class="form-group">
                             <label for="loanOne" class="label">Préstamo 1</label>
-                            <input type="number" name="loanOne" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="loanOne" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese El Monto de su Prestamo 1"                        
                             data-ttg-color="#069999"
@@ -67,7 +67,7 @@
 
                         <div class="form-group">
                             <label for="loanTwo" class="label">Préstamo 2</label>
-                            <input type="number" name="loanTwo" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="loanTwo" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese El Monto de su Prestamo 2"                        
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -77,7 +77,7 @@
 
                         <div class="form-group">
                             <label for="loanThree" class="label">Préstamo 3</label>
-                            <input type="number" name="loanThree" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="loanThree" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese El Monto de su Prestamo 3"                        
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -87,7 +87,7 @@
 
                         <div class="form-group">
                             <label for="loanFour" class="label">Préstamo 4</label>
-                            <input type="number" name="loanFour" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="loanFour" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingrese El Monto de su Prestamo 4"                        
                             data-ttg-content="De lo Contrario Ingrese 0"
@@ -97,7 +97,7 @@
 
                        <div class="form-group">
                             <label for="other" class="label">Otras deudas</label>
-                            <input type="number" name="other" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="other" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Si tiene otras deudas haga la sumatoria e ingrese el total"                        
                             data-ttg-content="De lo Contrario Ingrese 0"

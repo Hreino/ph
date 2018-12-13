@@ -20,7 +20,7 @@
                     <div class="container">
                         <div class="form-group">
                             <label for="doctors" class="label">Pagos de consultas Médicas</label>
-                            <input type="number" name="doctors" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="doctors" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingresa el pago promedio por consulta médica"
                             data-ttg-color="#069999"
@@ -29,7 +29,7 @@
 
                         <div class="form-group">
                             <label for="dentist" class="label">Consultas o tratamientos Odontológicos</label>
-                            <input type="number" name="dentist" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="dentist" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingresa el pago promedio por consulta Odontológica"
                             data-ttg-color="#069999"
@@ -38,7 +38,7 @@
 
                         <div class="form-group">
                             <label for="meds" class="label">Medicinas</label>
-                            <input type="number" name="meds" placeholder="$ ----.--" step=".01"
+                            <input type="number" name="meds" placeholder="$ ----.--" step=".01" required
                             class="form-control tourtipguide"
                             data-ttg-title="Ingresa el pago  promedio de medicamentos"
                             data-ttg-color="#069999"
@@ -47,7 +47,7 @@
 
                         <div class="form-group">
                                 <label for="other" class="label">Otros Gastos de Salud</label>
-                                <input type="number" name="other" placeholder="$ ----.--" step=".01"
+                                <input type="number" name="other" placeholder="$ ----.--" step=".01" required
                                 class="form-control tourtipguide"
                                 data-ttg-title="Si tiene otros gastos ingrese la sumatoria aquí"
                                 data-ttg-content="De lo contrario ingrese 0"
