@@ -63,10 +63,10 @@ class BudgetController extends Controller
         $budget->coaching= $request->input('coaching');
 
         $budget->save();
-        if ($budget->coaching=='Si') {
-            $mensaje = new Notification('Prueba');
-            Mail::to('hereinosa@gmail.com')->send($mensaje);
-        }
+        // if ($budget->coaching=='Si') {
+        //     $mensaje = new Notification('Prueba');
+        //     Mail::to('hereinosa@gmail.com')->send($mensaje);
+        // }
         return redirect('income/create');
     }
 
