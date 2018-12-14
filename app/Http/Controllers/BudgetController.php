@@ -34,7 +34,7 @@ class BudgetController extends Controller
     public function index()
     {
         $userID = auth()->user()->id;
-        $userBudgets = Budget::where('id_user', $userID)->get();
+        $userBudgets = Budget::where([['id_user', '=',  $userID],['id_expenses', '<>', 'NULL'], ['id_incomes', '<>', 'NULL']])->get();
         return view('budget.index', ['userBudgets'=>$userBudgets]);
     }
 
@@ -206,7 +206,7 @@ class BudgetController extends Controller
 
     public function coaching(){
 
-        $coachBudgets = Budget::where('coaching', 'Si')->get();
+        $coachBudgets = Budget::where([['coaching', '=',  'Si'],['id_expenses', '<>', 'NULL'], ['id_incomes', '<>', 'NULL']])->get();
 
         return view('budget.coaching', ['coachBudgets'=>$coachBudgets]);
     }
