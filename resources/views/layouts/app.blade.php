@@ -116,39 +116,7 @@
 </body>
 
 <footer>
-      <!-- Footer Elements -->
-        <div class="container">
-
-            <!-- Grid row-->
-            <div class="row">
-      
-              <!-- Grid column -->
-              <div class="col-md-12 ">
-                <div class="mb-5 text-center">
-      
-                  <!-- Facebook -->
-                  <a href="http://www.google.com">
-                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <!-- Twitter -->
-                  <a href="http://www.google.com">
-                    <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  
-                  <!--Instagram-->
-                  <a href="http://www.google.com">
-                    <i class="fa fa-instagram fa-lg white-text  mr-3 fa-2x"> </i>
-                  </a>
-                  
-                </div>
-              </div>
-              <!-- Grid column -->
-      
-            </div>
-            <!-- Grid row-->
-        </div>
-          <!-- Footer Elements -->
-      
+     
           <!-- Copyright -->
           <div class="text-center">
             <a href="https://fundacionjborja.org/"> © <?php echo date("Y"); ?> Proyecto Juntos</a>
