@@ -5,7 +5,7 @@
         <div class="row">
             <section class="col-md-7" id="mainHome" >
                 
-
+            <i class="fas fa-h1">Hola</i>   
                 <h3 class="text-center"><i> "El dinero no es un fin en sí mismo, sino un medio que nos permite alcanzar nuestros objetivos de vida."</i></h3>
                 <article class="col-md-6 animated pulse " id="articleHome" >
                     <img src="{{ asset('img/articleHome.png') }}" 
